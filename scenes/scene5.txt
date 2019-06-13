@@ -1,0 +1,115 @@
+camera
+  position: {0,0,-50}
+  direction: {0,0,1}
+plane
+  position: {0,0,30}
+  normal: {0,0,1}
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {255,5,5}
+  specular: {100,100,100}
+  reflective: {0,0,0}
+  refractive: {0,0,0}
+plane
+  position: {0,20,0}
+  normal: {0,-1,0}
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {0,255,251}
+  specular: {100,100,100}
+  reflective: {100,1,1}
+  refractive: {0,0,0}
+plane
+  position: {0,-20,0}
+  normal: {0,1,0}
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {0,255,251}
+  specular: {100,100,100}
+  reflective: {0,0,0}
+  refractive: {0,0,0}
+plane
+  position: {30,0,0}
+  normal: {-1,0,0}
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {255,216,0}
+  specular: {100,100,100}
+  reflective: {0,0,0}
+  refractive: {0,0,0}
+plane
+  position: {-30,0,0}
+  normal: {1,0,0}
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {255,216,0}
+  specular: {100,100,100}
+  reflective: {0,0,0}
+  refractive: {0,0,0}
+cylinder
+  position: {20,-10,10}
+  direction: {0,-1,0}
+  radius: 2
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {213,234,237} ZINC
+  specular: {213,234,237} ZINC
+  reflective: {100,0,0}
+  refractive: {0,0,0}
+cylinder
+  position: {20,-10,10}
+  direction: {0,0,1}
+  radius: 2
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {213,234,237} ZINC
+  specular: {213,234,237} ZINC
+  reflective: {100,0,0}
+  refractive: {0,0,0}
+cylinder
+  position: {10,10,10}
+  direction: {0,-1,0}
+  radius: 2
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {250,209,194} COPPER
+  specular: {250,209,194} COPPER
+  reflective: {1,1,1}
+  refractive: {0,0,0}
+cylinder
+  position: {10,10,10}
+  direction: {0,0,1}
+  radius: 2
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {250,209,194} COPPER
+  specular: {250,209,194} COPPER
+  reflective: {1,1,1}
+  refractive: {0,0,0}
+cone
+  position: {-15,0,10}
+  direction: {0,-1,0}
+  angle: 20
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {255,229,158} GOLD
+  specular: {255,229,158} GOLD
+  reflective: {50,50,50}
+  refractive: {0,0,0}
+sphere
+  position: {-15,0,10}
+  radius: 4
+  ambient: {0,0,0}
+  emissive: {0,0,0}
+  diffuse: {252,250,245} SILVER
+  specular: {252,250,245} SILVER
+  reflective: {50,50,50}
+  refractive: {0,0,0} 
+light
+  position: {-20,0,0}
+  flux: 20
+  emissive: {255,241,224} HALOGEN
+light
+  position: {20,0,0}
+  flux: 20
+  emissive: {255,241,224} HALOGEN
